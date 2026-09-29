@@ -29,7 +29,7 @@ This is the most sensitive thing the app touches, so it comes first.
 A deed or survey typically carries names, an address, book and page references, and sometimes a price. When you photograph or import one:
 
 - the images are stored inside the app's own container on your device
-- the recognised text is stored with them, on your device
+- the recognized text is stored with them, on your device
 - **neither is ever uploaded, transmitted or seen by the developer**
 - deleting the parcel deletes its pages; deleting the app deletes everything
 
@@ -43,17 +43,17 @@ Reading the text on your document is done **entirely on your device**, using the
 
 Location is used to show where you are relative to the parcel, to guide you toward a corner, and to let you set the point of beginning by standing on it.
 
-Your location is processed on the device. It is not transmitted, not stored on any server and not shared. You can refuse location access and still read documents, compute parcels and place them by hand.
+Your location is processed on the device. It is not transmitted, not stored on any server and not shared. The one exception is below, under address lookup: once a parcel is placed, its position is looked up to show an address, and if you placed it by standing on a corner, that position is close to where you stood. You can refuse location access and still read documents, compute parcels and place them by hand.
 
 ## Address lookup and map imagery
 
 Two things do leave your device, and only these two.
 
-**Address lookup.** When a parcel is placed from an address or road name found on your document, or one you type, that text is sent to Apple's geocoding service to find a position. Apple's privacy policy governs that request.
+**Address lookup.** Two requests go to Apple's geocoding service. When a parcel is placed from an address or road name found on your document, that text is sent to find a position. And whenever a parcel is shown on the map, the coordinate of its center is sent so the app can show a one-line address under the map and you can confirm the parcel landed in the right place. Apple's privacy policy governs both requests.
 
 **Map imagery.** Satellite and map tiles are served by Apple Maps, which means the area you are looking at is requested from Apple's servers, as in any map application.
 
-Neither request carries your identity, your document, or anything the app has stored. If you place the parcel from printed coordinates, from your GPS position, or by tapping the map, no address lookup is made at all.
+Neither request carries your identity, your document, or anything else the app has stored. If you place the parcel from printed coordinates, from your GPS position, or by tapping the map, no text from your document is sent; only the placed parcel's position is looked up, as above.
 
 ## Purchases
 
@@ -62,8 +62,9 @@ Pro is a one-time purchase handled entirely by Apple through your Apple Account.
 ## What is stored on your device
 
 - the parcels you create and their calls
-- the document pages you captured and the text recognised from them
-- measurements, saved corner positions, and any notes or photographs you attach
+- the document pages you photographed or imported, and the text recognized from them
+- where you placed each parcel and how you rotated it
+- the measurements you save, and any notes you add to individual calls
 - your settings, such as display units and bearing format
 
 All of it is local. None of it is backed up to any service belonging to the developer. If you use iCloud Backup, your device backup is covered by Apple's terms, not by this policy.

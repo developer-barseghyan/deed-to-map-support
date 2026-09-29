@@ -48,9 +48,9 @@ When a description does not close, the app says so plainly and names the call mo
 
 ### What do "misclosure" and "precision" mean?
 
-**Misclosure** is the distance between your end point and your starting point, in feet or metres.
+**Misclosure** is the distance between your end point and your starting point, in feet or meters.
 
-**Precision** is that distance expressed as a ratio of the perimeter. A misclosure of 0.14 ft over a 2,338 ft perimeter is 1:17,100.
+**Precision** is that distance expressed as a ratio of the perimeter. A misclosure of 0.14 ft over a 2,338 ft perimeter is about 1:17,000.
 
 Rough guide:
 
@@ -59,17 +59,17 @@ Rough guide:
 | better than 1:10,000 | a modern survey, read correctly |
 | 1:5,000 to 1:10,000 | normal and fine |
 | 1:500 to 1:5,000 | an older survey, or a small misreading |
-| worse than 1:500 | something is wrong; check every call |
+| worse than 1:500 | something is wrong; check every call. The app will not save it without your say-so |
 
 ### The computed acreage matches my deed. Does that mean it read correctly?
 
 Not by itself, and this matters more than it sounds.
 
-A misread call can move part of the boundary without changing the area at all. This is not a rare edge case; it happens with any call that runs parallel to the closing direction. The app shows the acreage comparison because it is useful, but it treats the **closure** as the real check, and it suppresses the acreage message whenever the description does not close.
+A misread call can move part of the boundary without changing the area at all. This is not a rare edge case; it happens with any call that runs parallel to the closing direction. The app shows the acreage comparison because it is useful, but it treats the **closure** as the real check, and it shows the comparison only when the description closes better than about 1:5,000.
 
 ### My parcel is in the wrong place on the map.
 
-If the app placed it from an address printed on the document, the position is a starting point, not an answer. A map search finds a building or a street centre, not a property corner. The app marks such a placement as unconfirmed and asks you to drag and rotate it into position.
+If the app placed it from an address printed on the document, the position is a starting point, not an answer. A map search finds a building or a street center, not a property corner. The app marks such a placement as unconfirmed and asks you to drag and rotate it into position.
 
 For a reliable position you have three better options:
 
@@ -87,11 +87,11 @@ For magnetic bearings the app also needs the year. Magnetic north moves, so a be
 
 ### My deed is written in chains, rods or varas.
 
-Supported. So are links, poles, perches, US survey feet, international feet and metres. The app reads the units from the document and keeps them; changing what you display does not change what the deed says.
+Supported. So are links, poles, perches, US survey feet, international feet and meters. The app reads the units from the document and keeps them; changing what you display does not change what the deed says.
 
 ### Which countries does this work for?
 
-The app reads **US-style metes and bounds**: a description written as a sequence of bearings and distances. That is the form used in US deeds, surveys, plats and annexation ordinances, and the app handles feet, US survey feet, metres, chains, rods, poles, perches, links and varas, quadrant bearings and azimuths, and curve calls.
+The app reads **US-style metes and bounds**: a description written as a sequence of bearings and distances. That is the form used in US deeds, surveys, plats and annexation ordinances, and the app handles feet, US survey feet, meters, chains, rods, poles, perches, links and varas, quadrant bearings and azimuths, and curve calls.
 
 It is available worldwide, but a document written under a different cadastral tradition, as in most of Europe, Asia and Latin America, will usually not be readable. If you are unsure, the app is free to try: read your document and see whether the calls come out.
 
@@ -119,25 +119,25 @@ If you would rather not send the document, the first two are still enough in mos
 
 Pro is a **one-time purchase**, not a subscription. There is nothing to renew and nothing to cancel.
 
-If you reinstall the app or move to a new device, open the app, go to the Pro screen and choose **Restore purchase**. You must be signed in with the same Apple Account that made the purchase.
+If you reinstall the app or move to a new device, choose **Restore purchase**. The button is in **Settings** inside the app, and it is also on the Pro screen itself, so you can restore from whichever you reach first. You must be signed in with the same Apple Account that made the purchase.
 
 ### What does Pro include?
 
 Reading your deed is free, and always will be: scanning, recognition, the review screen, the drawing, the acreage, the closure check and the comparison against the acreage your deed states. You can confirm the app read your document correctly without paying anything.
 
-Pro adds using the result: placing the parcel on satellite imagery, walking to corners, the measuring tools, export to KML, GPX and CSV, and the PDF report.
+Pro adds using the result: placing the parcel on satellite imagery, walking to each corner with live GPS accuracy, measuring distances and areas, checking whether a spot falls inside your boundary, export to KML, GPX and CSV, and a PDF report of the plat, every call and its closure.
 
 ### Does the app work without a signal?
 
-Yes, apart from map tiles and address lookup, which need a connection. Reading a document, computing the parcel, navigating to corners and measuring all work offline. Download the map area while you have a signal if you are heading somewhere without one.
+Yes, apart from map tiles and address lookup, which need a connection. Reading a document, computing the parcel, walking to corners and measuring all work offline. Without a connection the map may be blank, but GPS and the guidance to each corner still work, so place the parcel and check it on the map before you set out.
 
 ### Why does the app want my location?
 
 To show where you are relative to the parcel, to walk you toward a corner, and to let you place the point of beginning by standing on it. Your location stays on the device. See the [Privacy Policy]({{ site.baseurl }}/privacy).
 
-### Why does the app want the camera?
+### Why does the app want the camera, or my photos?
 
-To photograph the deed or survey so the description can be read on the device. Photos of your documents are stored in the app and are never uploaded. See the [Privacy Policy]({{ site.baseurl }}/privacy).
+To photograph the deed or survey, or to open a photo or PDF of it you already have, so the description can be read on the device. Photos of your documents are stored in the app and are never uploaded. See the [Privacy Policy]({{ site.baseurl }}/privacy).
 
 ---
 

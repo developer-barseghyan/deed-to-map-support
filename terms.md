@@ -24,7 +24,7 @@ Nothing the app displays, exports or prints may be relied on to:
 
 - establish, confirm or dispute a property boundary
 - site a fence, a wall, a building or any other improvement
-- resolve an encroachment or a dispute with a neighbour
+- resolve an encroachment or a dispute with a neighbor
 - support a property transaction, a permit application or any filing
 - replace a survey, a plat, a title report or professional advice
 
@@ -38,13 +38,7 @@ Two limits follow from this and cannot be engineered away.
 
 **The app can only be as right as the description.** If the document is wrong, incomplete, or read incorrectly, the plot is wrong. The app checks whether a description closes and tells you when it does not, but a description can close and still be wrong.
 
-**It reads US-style metes and bounds.** The app is built for descriptions written as a
-sequence of bearings and distances, the form used in US deeds, surveys, plats and annexation
-ordinances. It handles feet, US survey feet, metres, chains, rods, poles, perches, links and
-varas, quadrant bearings and azimuths, and curve calls. It does not read PLSS aliquot
-descriptions such as *the NE¼ of the SW¼ of Section 14*, and it is not built for the cadastral
-systems used in most other countries. The app is sold worldwide, but a document written outside
-this tradition may not be readable.
+**It reads US-style metes and bounds.** The app is built for descriptions written as a sequence of bearings and distances, the form used in US deeds, surveys, plats and annexation ordinances. It handles feet, US survey feet, meters, chains, rods, poles, perches, links and varas, quadrant bearings and azimuths, and curve calls. It does not read PLSS aliquot descriptions such as *the NE¼ of the SW¼ of Section 14*, and it is not built for the cadastral systems used in most other countries. The app is sold worldwide, but a document written outside this tradition may not be readable.
 
 **Position is your responsibility.** The app cannot know where your land is. A parcel placed from an address is placed at a building or a street, not at a property corner, and the app marks such a placement as unconfirmed. Where you finally put it is your decision.
 
@@ -52,7 +46,7 @@ this tradition may not be readable.
 
 Distances, bearings, areas and closure figures are computed from the description as entered. They describe the document, not the ground.
 
-Positions from your device's GPS carry the accuracy your device reports, typically several metres, and worse under trees, near buildings or in poor conditions. Compass headings are affected by nearby metal; an iron pipe, a wire fence or a vehicle can shift a reading substantially. The app shows the reported accuracy where it can and declines to state more precision than the underlying reading supports.
+Positions from your device's GPS carry the accuracy your device reports, typically several meters, and worse under trees, near buildings or in poor conditions. Compass headings are affected by nearby metal; an iron pipe, a wire fence or a vehicle can shift a reading substantially. The app shows the reported accuracy where it can and declines to state more precision than the underlying reading supports.
 
 Magnetic declination corrections use a published geomagnetic model and the year you supply. An incorrect year produces a rotated parcel.
 
