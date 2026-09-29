@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Deed to Map — Terms of Use
+title: Deed to Map Terms of Use
 permalink: /terms
 ---
 

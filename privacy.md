@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Deed to Map — Privacy Policy
+title: Deed to Map Privacy Policy
 permalink: /privacy
 ---
 

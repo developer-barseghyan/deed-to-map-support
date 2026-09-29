@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Deed to Map — Support
+title: Deed to Map Support
 permalink: /
 ---
 
-# Deed to Map — Support
+# Support
 
 **Deed to Map: Metes & Bounds** reads the boundary description on a US property deed or survey and plots the parcel on satellite imagery, so you can see where the lines run and walk to each corner.
 
