@@ -133,12 +133,12 @@ Yes, apart from map tiles and address lookup, which need a connection. Reading a
 
 ### Why does the app want my location?
 
-To show where you are relative to the parcel, to walk you toward a corner, and to let you place the point of beginning by standing on it. Your location stays on the device. See the [Privacy Policy](/privacy).
+To show where you are relative to the parcel, to walk you toward a corner, and to let you place the point of beginning by standing on it. Your location stays on the device. See the [Privacy Policy]({{ site.baseurl }}/privacy).
 
 ### Why does the app want the camera?
 
-To photograph the deed or survey so the description can be read on the device. Photos of your documents are stored in the app and are never uploaded. See the [Privacy Policy](/privacy).
+To photograph the deed or survey so the description can be read on the device. Photos of your documents are stored in the app and are never uploaded. See the [Privacy Policy]({{ site.baseurl }}/privacy).
 
 ---
 
-[Privacy Policy](/privacy) · [Terms of Use](/terms)
+[Privacy Policy]({{ site.baseurl }}/privacy) · [Terms of Use]({{ site.baseurl }}/terms)

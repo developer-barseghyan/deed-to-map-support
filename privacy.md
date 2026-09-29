@@ -98,4 +98,4 @@ Questions about this policy: **developer.barseghyan@gmail.com**
 
 ---
 
-[Support](/) · [Terms of Use](/terms)
+[Support]({{ site.baseurl }}/) · [Terms of Use]({{ site.baseurl }}/terms)

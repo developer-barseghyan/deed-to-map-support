@@ -58,7 +58,7 @@ Magnetic declination corrections use a published geomagnetic model and the year 
 
 ## 4. Your content
 
-The documents you photograph, the parcels you create and everything you attach to them remain yours. They are stored on your device. The developer does not receive them, cannot access them and claims no rights over them. See the [Privacy Policy](/privacy).
+The documents you photograph, the parcels you create and everything you attach to them remain yours. They are stored on your device. The developer does not receive them, cannot access them and claims no rights over them. See the [Privacy Policy]({{ site.baseurl }}/privacy).
 
 If you choose to send a document to support, you do so voluntarily and only for the purpose of diagnosing the problem you reported.
 
@@ -110,4 +110,4 @@ Nothing here removes any right you have under the mandatory consumer law of the 
 
 ---
 
-[Support](/) · [Privacy Policy](/privacy)
+[Support]({{ site.baseurl }}/) · [Privacy Policy]({{ site.baseurl }}/privacy)
