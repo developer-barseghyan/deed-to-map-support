@@ -6,7 +6,7 @@ permalink: /terms
 
 # Terms of Use
 
-**Deed to Map: Metes & Bounds**
+**Deed to Map: Property Lines** (called *Deed to Map: Metes & Bounds* before version 2.0)
 
 Effective date: 29 September 2026
 Developer: Tigran Barseghyan

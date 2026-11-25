@@ -6,9 +6,9 @@ permalink: /
 
 # Support
 
-**Deed to Map: Metes & Bounds** reads the boundary description on a US property deed or survey and plots the parcel on satellite imagery, so you can see where the lines run and walk to each corner.
+**Deed to Map: Property Lines** (called *Deed to Map: Metes & Bounds* before version 2.0) reads the boundary description on a US property deed or survey and plots the parcel on satellite imagery, so you can see where the lines run, tie the deed to the pins you find on the ground, and walk each line.
 
-Everything happens on your device. Your deed is never uploaded.
+Your deed is read on your device and is never uploaded.
 
 ---
 
@@ -71,8 +71,9 @@ A misread call can move part of the boundary without changing the area at all. T
 
 If the app placed it from an address printed on the document, the position is a starting point, not an answer. A map search finds a building or a street center, not a property corner. The app marks such a placement as unconfirmed and asks you to drag and rotate it into position.
 
-For a reliable position you have three better options:
+For a reliable position you have better options:
 
+- mark a pin or corner stone you found on the ground; the deed moves onto it (*Pins and lines*)
 - the document prints coordinates, in which case the app uses them directly
 - stand on a corner and place the point of beginning from your GPS position
 - line the parcel up against what you can see on the satellite image: a road edge, a fence line, a tree line
@@ -125,19 +126,37 @@ If you reinstall the app or move to a new device, choose **Restore purchase**. T
 
 Reading your deed is free, and always will be: scanning, recognition, the review screen, the drawing, the acreage, the closure check and the comparison against the acreage your deed states. You can confirm the app read your document correctly without paying anything.
 
-Pro adds using the result: placing the parcel on satellite imagery, walking to each corner with live GPS accuracy, measuring distances and areas, checking whether a spot falls inside your boundary, export to KML, GPX and CSV, and a PDF report of the plat, every call and its closure.
+Your first pin on each parcel is free too: mark it, and the app tells you how far the deed moves to match it.
+
+Pro adds using the result: placing the parcel on satellite imagery, seeing the deed on the map where your pins put it, marking more than one pin, walking your lines, finding the next pin, walking to each corner with live GPS accuracy, measuring distances and areas, checking whether a spot falls inside your boundary, export to KML, GPX and CSV, and a PDF report of the plat, every call and its closure.
 
 ### Does the app work without a signal?
 
-Yes, apart from map tiles and address lookup, which need a connection. Reading a document, computing the parcel, walking to corners and measuring all work offline. Without a connection the map may be blank, but GPS and the guidance to each corner still work, so place the parcel and check it on the map before you set out.
+Yes, apart from map tiles and address lookup, which need a connection. Reading a document, computing the parcel, marking pins, walking to corners and along lines, and measuring all work offline. Without a connection the map may be blank, but GPS and the guidance to each corner still work, so place the parcel and check it on the map before you set out.
+
+### How do I mark a pin?
+
+Open the parcel, then ••• › *Pins and lines* › *Mark a pin*. Hold the phone level above the iron pin, stone or post you found, choose 30, 60 or 120 seconds, and keep still. The app averages the GPS, and the deed moves onto the pin. A second pin at another corner also turns the deed to fit, and the app says whether the distance between the two agrees with the deed.
+
+If the app says *Not settling* or *Few GPS updates*, the position is not to be trusted yet: step into the open, or tap *Keep averaging*.
+
+### How accurate is it?
+
+A phone alone is usually good to several feet, and worse under trees and beside buildings. The app shows the accuracy it has. A Bluetooth GNSS receiver made for iPhone can do much better; iOS uses it by itself once it is paired. Whatever the figure, this is not a survey, and a pin you found may have been moved.
 
 ### Why does the app want my location?
 
-To show where you are relative to the parcel, to walk you toward a corner, and to let you place the point of beginning by standing on it. Your location stays on the device. See the [Privacy Policy]({{ site.baseurl }}/privacy).
+To show where you are relative to the parcel, to walk you to a corner or along a line, to average the position of a pin you found, and to let you place the point of beginning by standing on it. While the *Walk the line* screen is open, location is also used with the phone locked, so the distance and side on the Lock Screen stay right; it stops when you leave that screen. Your location is not sent to us. See the [Privacy Policy]({{ site.baseurl }}/privacy).
+
+The app needs *Precise Location*. If it is off, turn it on in iOS Settings › Deed to Map › Location.
 
 ### Why does the app want the camera, or my photos?
 
-To photograph the deed or survey, or to open a photo or PDF of it you already have, so the description can be read on the device. Photos of your documents are stored in the app and are never uploaded. See the [Privacy Policy]({{ site.baseurl }}/privacy).
+To photograph the deed or survey, or to open a photo or PDF of it you already have, so the description can be read on the device; and to photograph a pin you found, as a record kept with the parcel. Photos are stored in the app and are never uploaded. See the [Privacy Policy]({{ site.baseurl }}/privacy).
+
+### What is on my Lock Screen during a walk?
+
+A Live Activity with the distance to the next corner and which way to step. It ends when you leave the walk. It is drawn on your device; nothing is sent.
 
 ---
 
